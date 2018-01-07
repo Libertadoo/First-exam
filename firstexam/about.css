@@ -1,0 +1,342 @@
+@media only screen and (max-width: 599px){
+	body {
+    background: url(background.jpg);
+    background-attachment: fixed;
+    background-size: 100% auto;
+	}
+	.fb{
+			display: none;
+		}
+	.insta{
+		display: none;
+	}
+	.fbx{
+		display: block;
+		position: absolute;
+		left: 55vw;
+		top: 140vh;
+		width: 70px;
+		cursor: pointer;
+	}
+	.instax{
+		display: block;
+		position: absolute;
+		left: 30vw;
+		top: 140vh;
+		width: 70px;
+		cursor: pointer;
+	}
+	.arrow{
+		display: none;
+	}
+	.arrownext{
+		display: none;
+	}
+	.teksts{
+		display: none;
+	}
+	.tekstsmin{
+		position: absolute;
+		top: 70vh;
+		left: 8vw;
+	}
+	h1{
+		position: absolute;
+		top: 10vh;
+		left: 40vw;
+	}
+	nav a{
+		text-decoration: none;
+		box-sizing: border-box;
+		padding: 5px;
+		padding-left: 5px;
+		font-size: 2em;
+		text-align: center;
+        width: 130px;
+        background-color: gray;
+		margin: 10px;
+        color: black;
+		 z-index: 2;
+
+	}
+	div{
+		display: block;
+		width: 530px;
+		height: 1040px;
+		position: absolute;
+		left: 2vw;
+		top: 12vh;
+		background-color: gray;
+		opacity: .6;
+
+	}
+	.div2{
+		display: none;
+	}
+	.me{
+			border-radius: 180px;
+			position: absolute;
+			top: 20vh;
+			left: 20vw;
+		}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	.about{
+		position: absolute;
+		left: 200px;
+		top: 10px;
+		border: 4px solid black;
+	}
+	.portfolio{
+		position: absolute;
+		left: 345px;
+		top: 10px;
+	}
+	.home{
+		position: absolute;
+		left: 500px;
+		width: 48px;
+		top: 20px;
+		background-color: gray;
+		cursor: pointer;
+	}
+}
+	@media only screen and (min-width: 600px){
+
+	body {
+    background: url(background.jpg);
+    background-attachment: fixed;
+    background-size: 100% auto;
+		overflow: hidden;
+	}
+		.fbx{
+		display: none;
+	}
+	.instax{
+		display: none;
+	}
+		.tekstsmin{
+			display: none;
+		}
+		.fb{
+			display: none;
+		}
+		.insta{
+			display: none;
+		}
+		.showfb{
+			display: block;
+			border-radius: 180px;
+			position: absolute;
+			top: 30vh;
+			left: 55vw;
+			animation: in 1s forwards;
+			cursor: pointer;
+		}
+		.dontshowfb{
+			display: block;
+			border-radius: 180px;
+			position: absolute;
+			top: 30vh;
+			left: 55vw;
+			cursor: pointer;
+			animation: out 1s forwards;
+		}
+
+		.showinsta{
+			display: block;
+			border-radius: 180px;
+			position: absolute;
+			top: 30vh;
+			left: 20vw;
+			cursor: pointer;
+			animation: in 1s forwards;
+		}
+		.dontshowinsta{
+			display: block;
+			border-radius: 180px;
+			position: absolute;
+			top: 30vh;
+			left: 20vw;
+			cursor: pointer;
+			animation: out 1s forwards;
+		}
+
+		h1{
+		position: absolute;
+		top: 12vh;
+		left: 40vw;
+	}
+		nav a{
+		text-decoration: none;
+		box-sizing: border-box;
+		padding: 5px;
+		padding-left: 5px;
+		font-size: 2em;
+		text-align: center;
+        width: 130px;
+        background-color: gray;
+		margin: 10px;
+        color: black;
+		z-index: 2;
+
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+
+		.home{
+		position: absolute;
+		left: 1260px;
+		width: 48px;
+		top: 20px;
+		background-color: gray;
+		cursor: pointer;
+	}
+		.about{
+		position: absolute;
+		left: 950px;
+		top: 10px;
+			border: 4px solid black;
+	}
+	.portfolio{
+		position: absolute;
+		left: 1100px;
+		top: 10px;
+	}
+		.me{
+			border-radius: 180px;
+			position: absolute;
+			top: 30vh;
+			left: 5vw;
+
+		}
+
+		.teksts{
+			position: absolute;
+			left: 35vw;
+			top: 20vh;
+
+		}
+		.div{
+		display: block;
+		width: 1290px;
+		height: 540px;
+		position: absolute;
+		left: 2vw;
+		top: 13vh;
+		background-color: gray;
+		opacity: .6;
+
+
+	}
+		.div2{
+		display: block;
+
+
+	}
+		.showdiv2{
+			display: block;
+		width: 1390px;
+		height: 540px;
+		position: absolute;
+		left: 2vw;
+		top: 13vh;
+		background-color: gray;
+		opacity: .6;
+			animation: in 1s forwards;
+		}
+		@keyframes in{
+			0%{
+				transform: translateX(100vw);
+			}
+			100%{
+				transform: translateX(0vw);
+			}
+		}
+		dontshowdiv2{
+			display: block;
+		width: 1290px;
+		height: 540px;
+		position: absolute;
+		left: 2vw;
+		top: 13vh;
+		background-color: gray;
+		opacity: .6;
+		    animation: out 1s forwards;
+		}
+		@keyframes out{
+			0%{
+				transform: translateX(0vw);
+			}
+			100%{
+				transform: translateX(100vw);
+			}
+		}
+
+
+		.next{
+			animation: next 1s forwards;
+		}
+		@keyframes next{
+			to{
+				transform: translateX(-100vw);
+			}
+		}
+		.back{
+			animation: back 1s forwards;
+		}
+		@keyframes back{
+			0%{
+				transform: translateX(-100vw);
+			}
+			100%{
+				transform: translateX(0vw);
+			}
+		}
+		.arrow{
+		position: absolute;
+		left: 90vw;
+		top: 50vh;
+			box-sizing: border-box;
+		padding: 5px;
+		padding-left: 5px;
+			background-color: gray;
+			border: 2px solid black;
+			cursor: pointer;
+	}
+		.hide{
+			display: none;
+		}
+		.arrownext{
+			display: block;
+			position: absolute;
+			left: 5vw;
+			top: 50vh;
+			box-sizing: border-box;
+		padding: 5px;
+		padding-left: 5px;
+			background-color: gray;
+			border: 2px solid black;
+			cursor: pointer;
+			display: none;
+
+
+		}
+		.show{
+			display: block;
+			position: absolute;
+			left: 5vw;
+			top: 50vh;
+			box-sizing: border-box;
+		padding: 5px;
+		padding-left: 5px;
+			background-color: gray;
+			border: 2px solid black;
+			cursor: pointer;
+		}
+	}
+
